@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+<body>
+	<form>
+	<h3> 회원 가입 </h3>
+	
+	아이디: <input typ="text" name="user"><br>
+	비밀번호: <input type = "password" name = "password"><br>
+	이름: <input type = "text" name = "name"><br>
+	학번: <input type = "text" name = "number" size = 10><br>
+	성별 :
+	<label for="male">남성</label>
+	<input type = "radio" name = "grade" value = "male" checked>
+	<label for="female">여성<label>
+	<input type = "radio" name = "grade" value = "female"><br>
+	취미 선택
+	<input type ="checkbox" name = "play" value = "music" checked>음악
+	<input type ="checkbox" name = "play" value = "game" >게임
+	<input type ="checkbox" name = "play" value = "study" >공부 <br>
+	전화번호: <input type="tel" name="lel" required pattern="[0-9]{3}" title="010-3335-5060"><br>
+	물품가격:  <input type="text" name="user"><br>
+	수량: <input type="text" name="su"><br>
+	<button onclick="alert('안녕하세요?')"> 눌러보세요 </button><br>
+	고객의 의견 <br>
+	<textarea name="feedback" rows="5" cols="50"></textarea><br>
+	<select name = "Cars">
+		<option value="bmw">BMW</option>
+		<option value="benz">BENZ</option>
+		<option value="hd" selected>현대자동차</option>
+	</select><br>
+	<input type="button" value="계산" onclick="alert('1000원 입니다.')">
+	<input type = "reset" value="초기화">
+	<input type="submit" value="제출"><br>
+	<input type="image" src="https://t4.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/2gvj/image/1rcPpq7qiGz2L836296d_RZEqB8.jpg" width="100" alt="제출 버튼"><br>
+	<input type="hidden" name="hidden" value="hidden">
+	</form>
+</body>
+</html>

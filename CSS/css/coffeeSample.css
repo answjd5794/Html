@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+span {
+	font-size: x-large;
+	font-weight: bold;
+	color: red;
+}
+
+body {
+	background: yellow;
+	font-size: large;
+	font-family: serif;
+}
+
+h1 {
+	color: red;
+	border-bottom: gray;
+}
+
+h2 {
+	font: normal;
+}

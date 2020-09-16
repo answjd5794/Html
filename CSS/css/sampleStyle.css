@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Css파일을 따로 생성해준것 */
+h1 {
+	color: red;
+	background-color: yellow;
+}
+
+p {
+	color: blue;
+	background-color: pink;
+}
